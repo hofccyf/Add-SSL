@@ -2,7 +2,7 @@
 
 一个基于 Cloudflare Workers 的轻量级 Web 工具，支持为任意接入 Cloudflare 的域名快速启用 Universal SSL 证书。支持自定义域名、证书颁发机构选择、自动续期，适合自建服务、内网穿透、IPv6 域名等场景。
 
-##SNI版本
+##集成SNI版本
 
 根据老王的cf项目核心，定制了一个sni部署的版本，代码是_worker.js这个。部署完成网页是addssl
 
